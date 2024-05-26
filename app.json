@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "FCM-Cafe",
-    "slug": "FCM-Cafe",
+    "name": "fcm",
+    "slug": "fcm",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.max2033.fcm"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.max2033.fcm"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c83f9cc5-c3f9-42a9-a272-0e77bcc6b3ca"
+      }
     }
   }
 }
