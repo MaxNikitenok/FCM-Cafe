@@ -1,16 +1,17 @@
 {
-  "name": "fcm",
+  "name": "FCM-Cafe",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start --port=3000",
     "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
+    "android": "expo start --android  --port=3000",
     "ios": "expo start --ios",
-    "web": "expo start --web",
+    "web": "expo start --web  --port=3000",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "pre": "eas build -p android --profile preview"
+    "pre": "eas build -p android --profile preview",
+    "prei": "eas build -p ios --profile preview"
   },
   "jest": {
     "preset": "jest-expo"

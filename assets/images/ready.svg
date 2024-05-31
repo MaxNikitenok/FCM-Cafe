@@ -1,6 +1,6 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="icons &#208;&#179;&#208;&#190;&#209;&#130;&#208;&#190;&#208;&#178;&#208;&#190;">
-<circle id="Ellipse 47" cx="12" cy="12" r="9" stroke="white" stroke-width="1.5"/>
-<path id="Line 1" d="M8 12L11 15L16 9" stroke="white" stroke-width="1.5"/>
+<circle id="Ellipse 47" cx="12.5" cy="12.5" r="9" stroke="#00FBF4" stroke-width="1.5"/>
+<path id="Line 1" d="M8.5 12.5L11.5 15.5L16.5 9.5" stroke="#00FBF4" stroke-width="1.5"/>
 </g>
 </svg>
